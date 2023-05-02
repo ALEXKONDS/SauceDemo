@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SauceDemo.SauceDemo.Test_BonusTrack3">
+      <class name="github.SauceDemo.MakeOrderAndDelete">
         <methods>
-          <include name="logIn"/>
-          <include name="showTestsDone"/>
-          <include name="showConsoleMessage"/>
           <include name="setUp"/>
           <include name="checkoutFinish"/>
+          <include name="showConsoleMessage"/>
+          <include name="logIn"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- SauceDemo.SauceDemo.Test_BonusTrack3 -->
+      </class> <!-- github.SauceDemo.MakeOrderAndDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
