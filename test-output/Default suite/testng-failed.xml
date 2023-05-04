@@ -3,15 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="github.SauceDemo.MakeOrderAndDelete">
+      <class name="github.SauceDemo.Login_Chrome">
         <methods>
-          <include name="setUp"/>
-          <include name="checkoutFinish"/>
-          <include name="showConsoleMessage"/>
-          <include name="logIn"/>
           <include name="closeBrowser"/>
+          <include name="cleanBrowser"/>
+          <include name="showConsoleMessage"/>
+          <include name="login_Firefox_Credentials_Password_Wrong"/>
+          <include name="driver_Setup"/>
+          <include name="login_Firefox_Credentials_None"/>
+          <include name="login_Firefox_Credentials_Lockout"/>
+          <include name="login_Firefox_Credentials_Username_Wrong"/>
+          <include name="browser_Setup"/>
         </methods>
-      </class> <!-- github.SauceDemo.MakeOrderAndDelete -->
+      </class> <!-- github.SauceDemo.Login_Chrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,76 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">21 methods, 12 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Edge" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Lockout">login_Firefox_Credentials_Lockout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Chrome" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Lockout">login_Firefox_Credentials_Lockout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Firefox" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Lockout">login_Firefox_Credentials_Lockout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Edge" class="method navigator-link" hash-for-method="login_Firefox_Credentials_None">login_Firefox_Credentials_None</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Chrome" class="method navigator-link" hash-for-method="login_Firefox_Credentials_None">login_Firefox_Credentials_None</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Firefox" class="method navigator-link" hash-for-method="login_Firefox_Credentials_None">login_Firefox_Credentials_None</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Edge" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Password_Wrong">login_Firefox_Credentials_Password_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Chrome" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Password_Wrong">login_Firefox_Credentials_Password_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Firefox" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Password_Wrong">login_Firefox_Credentials_Password_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Chrome" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Username_Wrong">login_Firefox_Credentials_Username_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Edge" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Username_Wrong">login_Firefox_Credentials_Username_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Firefox" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Username_Wrong">login_Firefox_Credentials_Username_Wrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +172,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.MakeSimpleOrder" class="method navigator-link" hash-for-method="addToCartAndGoToCheckout">addToCartAndGoToCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="github.SauceDemo.MakeOrderAndDelete" class="method navigator-link" hash-for-method="addToCartAndGoToCheckout">addToCartAndGoToCheckout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.MakeSimpleOrder" class="method navigator-link" hash-for-method="addToCartAndGoToCheckout">addToCartAndGoToCheckout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.MakeSimpleOrder" class="method navigator-link" hash-for-method="checkoutFinish">checkoutFinish</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -118,7 +192,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.MakeSimpleOrder" class="method navigator-link" hash-for-method="checkoutFinish">checkoutFinish</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Firefox" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Ok">login_Firefox_Credentials_Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Chrome" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Ok">login_Firefox_Credentials_Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="github.SauceDemo.Login_Edge" class="method navigator-link" hash-for-method="login_Firefox_Credentials_Ok">login_Firefox_Credentials_Ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +227,249 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Firefox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Lockout">
+                  </a> <!-- login_Firefox_Credentials_Lockout -->
+                  <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Firefox.login_Firefox_Credentials_Lockout(Login_Firefox.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with lockout user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_None">
+                  </a> <!-- login_Firefox_Credentials_None -->
+                  <span class="method-name">login_Firefox_Credentials_None</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Firefox.login_Firefox_Credentials_None(Login_Firefox.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login without credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Password_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Password_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Firefox.login_Firefox_Credentials_Password_Wrong(Login_Firefox.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Username_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Username_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Firefox.login_Firefox_Credentials_Username_Wrong(Login_Firefox.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Edge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Lockout">
+                  </a> <!-- login_Firefox_Credentials_Lockout -->
+                  <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Edge.login_Firefox_Credentials_Lockout(Login_Edge.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with lockout user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_None">
+                  </a> <!-- login_Firefox_Credentials_None -->
+                  <span class="method-name">login_Firefox_Credentials_None</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Edge.login_Firefox_Credentials_None(Login_Edge.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login without credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Password_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Password_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Edge.login_Firefox_Credentials_Password_Wrong(Login_Edge.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Username_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Username_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Edge.login_Firefox_Credentials_Username_Wrong(Login_Edge.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Chrome</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Lockout">
+                  </a> <!-- login_Firefox_Credentials_Lockout -->
+                  <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Chrome.login_Firefox_Credentials_Lockout(Login_Chrome.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with lockout user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_None">
+                  </a> <!-- login_Firefox_Credentials_None -->
+                  <span class="method-name">login_Firefox_Credentials_None</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Chrome.login_Firefox_Credentials_None(Login_Chrome.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login without credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Password_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Password_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Chrome.login_Firefox_Credentials_Password_Wrong(Login_Chrome.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Username_Wrong">
+                  </a> <!-- login_Firefox_Credentials_Username_Wrong -->
+                  <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://www.saucedemo.com/] but found [https://www.saucedemo.com/]
+	at github.SauceDemo.Login_Chrome.login_Firefox_Credentials_Username_Wrong(Login_Chrome.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login with wrong credentials: Username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Edge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Ok">
+                  </a> <!-- login_Firefox_Credentials_Ok -->
+                  <span class="method-name">login_Firefox_Credentials_Ok</span>
+                  <em>
+(Login with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Firefox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Ok">
+                  </a> <!-- login_Firefox_Credentials_Ok -->
+                  <span class="method-name">login_Firefox_Credentials_Ok</span>
+                  <em>
+(Login with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">github.SauceDemo.Login_Chrome</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Firefox_Credentials_Ok">
+                  </a> <!-- login_Firefox_Credentials_Ok -->
+                  <span class="method-name">login_Firefox_Credentials_Ok</span>
+                  <em>
+(Login with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -227,6 +554,9 @@
     &lt;classes&gt;
       &lt;class name=&quot;github.SauceDemo.MakeSimpleOrder&quot;/&gt;
       &lt;class name=&quot;github.SauceDemo.MakeOrderAndDelete&quot;/&gt;
+      &lt;class name=&quot;github.SauceDemo.Login_Chrome&quot;/&gt;
+      &lt;class name=&quot;github.SauceDemo.Login_Edge&quot;/&gt;
+      &lt;class name=&quot;github.SauceDemo.Login_Firefox&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -240,7 +570,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,36 +596,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(21);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkoutFinish')
 data.setCell(0, 2, 'github.SauceDemo.MakeSimpleOrder')
-data.setCell(0, 3, 2265);
+data.setCell(0, 3, 2194);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'productSortHiLo')
 data.setCell(1, 2, 'github.SauceDemo.MakeSimpleOrder')
-data.setCell(1, 3, 1863);
+data.setCell(1, 3, 1990);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addToCartAndGoToCheckout')
+data.setCell(2, 1, 'productSortZA')
 data.setCell(2, 2, 'github.SauceDemo.MakeOrderAndDelete')
-data.setCell(2, 3, 1680);
+data.setCell(2, 3, 1719);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'productSortZA')
+data.setCell(3, 1, 'addToCartAndGoToCheckout')
 data.setCell(3, 2, 'github.SauceDemo.MakeOrderAndDelete')
-data.setCell(3, 3, 1669);
+data.setCell(3, 3, 960);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addToCartAndGoToCheckout')
-data.setCell(4, 2, 'github.SauceDemo.MakeSimpleOrder')
-data.setCell(4, 3, 402);
+data.setCell(4, 1, 'login_Firefox_Credentials_Ok')
+data.setCell(4, 2, 'github.SauceDemo.Login_Edge')
+data.setCell(4, 3, 658);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkoutFinish')
-data.setCell(5, 2, 'github.SauceDemo.MakeOrderAndDelete')
-data.setCell(5, 3, 321);
+data.setCell(5, 1, 'login_Firefox_Credentials_Ok')
+data.setCell(5, 2, 'github.SauceDemo.Login_Chrome')
+data.setCell(5, 3, 622);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login_Firefox_Credentials_Ok')
+data.setCell(6, 2, 'github.SauceDemo.Login_Firefox')
+data.setCell(6, 3, 446);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addToCartAndGoToCheckout')
+data.setCell(7, 2, 'github.SauceDemo.MakeSimpleOrder')
+data.setCell(7, 3, 423);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login_Firefox_Credentials_Username_Wrong')
+data.setCell(8, 2, 'github.SauceDemo.Login_Edge')
+data.setCell(8, 3, 380);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login_Firefox_Credentials_Lockout')
+data.setCell(9, 2, 'github.SauceDemo.Login_Edge')
+data.setCell(9, 3, 379);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login_Firefox_Credentials_Lockout')
+data.setCell(10, 2, 'github.SauceDemo.Login_Chrome')
+data.setCell(10, 3, 366);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login_Firefox_Credentials_Lockout')
+data.setCell(11, 2, 'github.SauceDemo.Login_Firefox')
+data.setCell(11, 3, 349);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login_Firefox_Credentials_Username_Wrong')
+data.setCell(12, 2, 'github.SauceDemo.Login_Chrome')
+data.setCell(12, 3, 347);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'login_Firefox_Credentials_Password_Wrong')
+data.setCell(13, 2, 'github.SauceDemo.Login_Firefox')
+data.setCell(13, 3, 333);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'login_Firefox_Credentials_Username_Wrong')
+data.setCell(14, 2, 'github.SauceDemo.Login_Firefox')
+data.setCell(14, 3, 318);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'login_Firefox_Credentials_Password_Wrong')
+data.setCell(15, 2, 'github.SauceDemo.Login_Edge')
+data.setCell(15, 3, 302);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkoutFinish')
+data.setCell(16, 2, 'github.SauceDemo.MakeOrderAndDelete')
+data.setCell(16, 3, 295);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'login_Firefox_Credentials_None')
+data.setCell(17, 2, 'github.SauceDemo.Login_Firefox')
+data.setCell(17, 3, 286);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'login_Firefox_Credentials_Password_Wrong')
+data.setCell(18, 2, 'github.SauceDemo.Login_Chrome')
+data.setCell(18, 3, 282);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'login_Firefox_Credentials_None')
+data.setCell(19, 2, 'github.SauceDemo.Login_Chrome')
+data.setCell(19, 3, 199);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'login_Firefox_Credentials_None')
+data.setCell(20, 2, 'github.SauceDemo.Login_Edge')
+data.setCell(20, 3, 189);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -321,83 +711,320 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">github.SauceDemo.Login_Chrome</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">driver_Setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Edge</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">driver_Setup</span>
+                <span class="method-start">1795 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Firefox</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">driver_Setup</span>
+                <span class="method-start">2593 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5518 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeSimpleOrder</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1761 ms</span>
+                <span class="method-start">6366 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Chrome</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_Setup</span>
+                <span class="method-start">7200 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Edge</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_Setup</span>
+                <span class="method-start">7608 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Firefox</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_Setup</span>
+                <span class="method-start">8092 ms</span>
+              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">2515 ms</span>
+                <span class="method-start">9256 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeSimpleOrder</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">3240 ms</span>
+                <span class="method-start">9944 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">productSortHiLo</span>
-                <span class="method-start">3989 ms</span>
+                <span class="method-start">10760 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addToCartAndGoToCheckout</span>
-                <span class="method-start">5856 ms</span>
+                <span class="method-start">12754 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkoutFinish</span>
-                <span class="method-start">6260 ms</span>
+                <span class="method-start">13178 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">productSortZA</span>
-                <span class="method-start">8528 ms</span>
+                <span class="method-start">15375 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addToCartAndGoToCheckout</span>
-                <span class="method-start">10199 ms</span>
+                <span class="method-start">17096 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkoutFinish</span>
-                <span class="method-start">11880 ms</span>
+                <span class="method-start">18057 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Chrome</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                <span class="method-start">18354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">18722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_None</span>
+                <span class="method-start">18778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">18978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_Firefox_Credentials_Ok</span>
+                <span class="method-start">19002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">19625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                <span class="method-start">19657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">19940 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                <span class="method-start">19982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">20330 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Edge</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                <span class="method-start">20368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">20749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_None</span>
+                <span class="method-start">20799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">20989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_Firefox_Credentials_Ok</span>
+                <span class="method-start">21022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">21680 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                <span class="method-start">21724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">22027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                <span class="method-start">22064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">22445 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Firefox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Lockout</span>
+                <span class="method-start">22480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">22830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_None</span>
+                <span class="method-start">22922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">23209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_Firefox_Credentials_Ok</span>
+                <span class="method-start">23308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">23755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Password_Wrong</span>
+                <span class="method-start">23857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">24191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_Firefox_Credentials_Username_Wrong</span>
+                <span class="method-start">24295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanBrowser</span>
+                <span class="method-start">24614 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Chrome</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">12202 ms</span>
+                <span class="method-start">24710 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Edge</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24899 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Firefox</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25124 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25915 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeSimpleOrder</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">12332 ms</span>
+                <span class="method-start">26082 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">showConsoleMessage</span>
+                <span class="method-start">26321 ms</span>
+              </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">github.SauceDemo.MakeOrderAndDelete</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">showConsoleMessage</span>
-                <span class="method-start">12497 ms</span>
+                <span class="method-start">26321 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">github.SauceDemo.MakeSimpleOrder</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">github.SauceDemo.Login_Edge</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">showConsoleMessage</span>
-                <span class="method-start">12498 ms</span>
+                <span class="method-start">26321 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Firefox</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">showConsoleMessage</span>
+                <span class="method-start">26321 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">github.SauceDemo.Login_Chrome</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">showConsoleMessage</span>
+                <span class="method-start">26321 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

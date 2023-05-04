@@ -61,8 +61,8 @@ public class MakeOrderAndDelete {
 		chromeDriver.findElement(By.id("password")).sendKeys("secret_sauce");
 		
 		//Asserts: Check fields are not empty
-		//Assert.assertNotNull(chromeDriver.findElements(By.id("user-name")));
-		//Assert.assertNotNull(chromeDriver.findElements(By.id("password")));
+		Assert.assertNotNull(chromeDriver.findElements(By.id("user-name")));
+		Assert.assertNotNull(chromeDriver.findElements(By.id("password")));
 		
 		//Login button click
 		chromeDriver.findElement(By.id("login-button")).click();

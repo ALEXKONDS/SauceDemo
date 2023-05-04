@@ -5,6 +5,9 @@
     <classes>
       <class name="github.SauceDemo.MakeSimpleOrder"/>
       <class name="github.SauceDemo.MakeOrderAndDelete"/>
+      <class name="github.SauceDemo.Login_Chrome"/>
+      <class name="github.SauceDemo.Login_Edge"/>
+      <class name="github.SauceDemo.Login_Firefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
