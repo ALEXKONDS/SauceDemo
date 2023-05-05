@@ -1,47 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="github.SauceDemo.Login_Firefox">
+      <class name="saucedemo_tests.github.Add_Items_and_Delete">
         <methods>
-          <include name="driver_Setup"/>
-          <include name="login_Firefox_Credentials_Lockout"/>
+          <include name="checkoutFinish"/>
+          <include name="setUp"/>
           <include name="showConsoleMessage"/>
-          <include name="login_Firefox_Credentials_None"/>
-          <include name="login_Firefox_Credentials_Username_Wrong"/>
+          <include name="logIn"/>
           <include name="browser_Setup"/>
-          <include name="cleanBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="login_Firefox_Credentials_Password_Wrong"/>
-        </methods>
-      </class> <!-- github.SauceDemo.Login_Firefox -->
-      <class name="github.SauceDemo.Login_Edge">
-        <methods>
-          <include name="cleanBrowser"/>
-          <include name="driver_Setup"/>
-          <include name="showConsoleMessage"/>
-          <include name="login_Firefox_Credentials_None"/>
-          <include name="login_Firefox_Credentials_Password_Wrong"/>
-          <include name="login_Firefox_Credentials_Username_Wrong"/>
-          <include name="browser_Setup"/>
-          <include name="login_Firefox_Credentials_Lockout"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- github.SauceDemo.Login_Edge -->
-      <class name="github.SauceDemo.Login_Chrome">
-        <methods>
-          <include name="cleanBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="showConsoleMessage"/>
-          <include name="login_Firefox_Credentials_Password_Wrong"/>
-          <include name="driver_Setup"/>
-          <include name="login_Firefox_Credentials_None"/>
-          <include name="login_Firefox_Credentials_Lockout"/>
-          <include name="login_Firefox_Credentials_Username_Wrong"/>
-          <include name="browser_Setup"/>
-        </methods>
-      </class> <!-- github.SauceDemo.Login_Chrome -->
+      </class> <!-- saucedemo_tests.github.Add_Items_and_Delete -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,11 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="github.SauceDemo.MakeSimpleOrder"/>
-      <class name="github.SauceDemo.MakeOrderAndDelete"/>
-      <class name="github.SauceDemo.Login_Chrome"/>
-      <class name="github.SauceDemo.Login_Edge"/>
-      <class name="github.SauceDemo.Login_Firefox"/>
+      <class name="saucedemo_tests.github.Login_Chrome"/>
+      <class name="saucedemo_tests.github.Login_Edge"/>
+      <class name="saucedemo_tests.github.Login_Firefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
